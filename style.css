@@ -1,0 +1,228 @@
+
+.container{
+    margin: 0;
+    padding: 0;
+    background-image: url(/images/Happy\ Birthday\ Cute\ Gif\ Animated\ Wishes\,\ Quotes\ Images\,\ Pics\ _\ Best\ Wishes.gif);
+    width: 100%;
+    height: 100vh;
+    background-repeat: no-repeat;
+    z-index: -1;
+    background-size: cover;
+    opacity: 0.98;
+}
+/* .container1{
+    display: flex;
+    justify-content: space-between;
+} */
+.text{
+    position: relative ;
+    font-family: Arial, Helvetica, sans-serif;
+    color:  rgba(255, 217, 0, 0.753);
+    display: flex;
+    justify-content: center;
+    text-shadow: 15px 15px 10px rgb(0, 0, 0);
+}
+.img{
+  
+    padding-top: 10%;
+    padding-left: 38%;
+    display: flex;
+    width: 20%;
+    /* border-radius: 40%; */
+    justify-content: center;
+    /* border: black 1px solid; */
+    /* box-shadow: black 10px 10px 10px 10px; */
+}
+.page{
+    margin: 0;
+    padding: 0;
+    background-color: #E0B0FF;
+}
+.mama{
+    border-radius: 50%;
+    width: 67%;
+    height: 80vh;
+    border: 2px solid rgb(0, 0, 0);
+    object-fit: cover;
+    box-shadow: 10px 10px 15px black;
+}
+.section{
+    background-color: azure;
+    display: flex;
+   flex-direction: column;
+}
+.pihaw{
+    width: 20%;
+    height: 50vh;
+    object-fit: cover;
+    border-radius: 30%;
+}
+.sec{
+    margin-bottom: 90vh;
+    border: 1px solid  black;
+    background-color: rgba(255, 255, 255, 0.788);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    box-shadow: 10px 10px 15px black;
+}
+.p{
+    font-size: 1rem;
+}
+.last{
+    background-image: url(/images/Happy\ Birthday\ Cute\ Gif\ Animated\ Wishes\,\ Quotes\ Images\,\ Pics\ _\ Best\ Wishes.gif);
+    width: 100%;
+    height: 100vh;
+  background-repeat: no-repeat;
+    background-size: cover;
+    z-index: -1;
+}
+
+
+@media (max-width: 768px) {
+    .img{
+
+        padding-top: 7%;
+        padding-left: 35%;
+        display: flex;
+        width: 30%;
+        /* border-radius: 40%; */
+        justify-content: center;
+        /* border: black 1px solid; */
+        /* box-shadow: black 10px 10px 10px 10px; */
+    }
+    .text{
+        padding-top: 0%;
+        display: flex;
+        justify-content: center;
+        text-shadow: 5px 5px 4.5px rgba(225, 217, 0, 0.842);
+        color: transparent;
+    }
+    .pihaw{
+        width: 30%;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 30%;
+    }
+}
+@media (max-width: 425px) {
+    .container {
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+    }
+    .text{
+        display: flex;
+        justify-content: left;
+        text-shadow: 15px 15px 10px rgb(0, 0, 0);
+        padding-top: 30%;
+        font-size: 80%;
+        color:  rgba(255, 217, 0, 0.753);
+    }
+    .img{
+
+        padding-top: 18%;
+        padding-left: 10%;
+        display: flex;
+        width: 50%;
+        /* border-radius: 40%; */
+        justify-content: center;
+        /* border: black 1px solid; */
+        /* box-shadow: black 10px 10px 10px 10px; */
+    }
+    .pihaw{
+        width: 50%;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 30%;
+    }
+    .p{
+        font-size: 1rem;
+    }
+}
+@media (max-width: 375px) {
+    .container {
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+    }
+    .text{
+        display: flex;
+        justify-content: left;
+        text-shadow: 15px 15px 10px rgb(0, 0, 0);
+        padding-top: 42%;
+        font-size: 70%;
+    }
+    .img{
+
+        padding-top: 30%;
+        padding-left: 10%;
+        display: flex;
+        width: 40%;
+        /* border-radius: 40%; */
+        justify-content: center;
+        /* border: black 1px solid; */
+        /* box-shadow: black 10px 10px 10px 10px; */
+    }   
+    .pihaw{
+        width: 50%;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 30%;
+    } 
+    .p{
+        font-size: small;
+    }
+}
+
+@media (max-width: 320px) {
+    .container {
+        background-size: cover;
+        background-repeat: no-repeat;
+      
+    }
+    .text{
+        display: flex;
+        justify-content: left;
+        text-shadow: 15px 15px 10px rgb(0, 0, 0);
+        padding-top: 42%;
+        font-size: 70%;
+    }
+    .img{
+
+        padding-top: 40%;
+        padding-left: 10%;
+        display: flex;
+        width: 50%;
+        /* border-radius: 40%; */
+        justify-content: center;
+        /* border: black 1px solid; */
+        /* box-shadow: black 10px 10px 10px 10px; */
+    } 
+    .mama{
+        border-radius: 50%;
+        width: 90%;
+        height: 70vh;
+        border: 2px solid rgba(0, 0, 0, 0.945);
+        object-fit: cover;
+        box-shadow: 10px 10px 15px black;
+    }  
+    .pihaw{
+        width: 50%;
+        height: 50vh;
+        object-fit: cover;
+        border-radius: 30%;
+    }
+    .sec{
+            margin-bottom: 100vh;
+           
+    }
+    .p{
+        font-size: small;
+    }
+}
+
+
+
+
+    
